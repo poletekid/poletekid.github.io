@@ -28,11 +28,8 @@ a {
     z-index: 1;
 }
 
-.navbar-nav a {
-    color: white;
-}
 
-.navbar-nav li:hover {
+.navbar-nav li:hover{
     background-color: #8c38ff;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
     border-radius: 200px;
@@ -103,7 +100,7 @@ a {
 
   
   .btn:hover {
-    background-color: #fff;
+    background-color: #8c38ff;
     color: #333;
   }
   
