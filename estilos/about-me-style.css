@@ -1,0 +1,8 @@
+body {
+    background-color: #212121;
+    color: white;
+}
+
+.container h-100 d-flex align-items-center my-5{
+    margin-top:  1000px;
+}
