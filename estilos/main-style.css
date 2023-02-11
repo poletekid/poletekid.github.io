@@ -2,6 +2,12 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+
 .nav-item {
     margin-right: 60px;
 }
