@@ -1,4 +1,7 @@
-  .video-section {
+.videos {
+  padding-top: 70px;
+}
+.video-section {
     position: relative;
     height: 100vh;
     width: 100%;
