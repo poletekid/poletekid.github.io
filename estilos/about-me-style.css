@@ -53,4 +53,27 @@ body {
     justify-content: center;
 }
 
+@media (max-width: 991px) {
+
+    .title {
+        padding-top: 1000px;
+    }
+
+    .primer-parrafo {
+        padding-top: 0px;
+    }
+
+    .segundo-parrafo {
+        padding-bottom: 100px;
+    }
+
+    .video-section{
+        position: relative;
+        height: 220vh;
+        width: 100%;
+        overflow: hidden;
+        filter: blur(5px);
+
+    }
+}
 
