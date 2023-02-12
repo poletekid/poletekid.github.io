@@ -1,41 +1,19 @@
-
+.videos {
+  padding-top: 70px;
+}
 .video-section {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
-  filter: blur(10px);
-}
-
-.video-section video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  min-width: 100%;
-  min-height: 100%;
-}
-    .about-me {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      text-align: center;
-    }
-    .title {
-      font-size: 36px;
-      margin-bottom: 30px;
-    }
-    .parrafos {
-      font-size: 18px;
-    }
-    @media (max-width: 767px) {
-      .video-section {
-        height: 300px;
-      }
-      .about-me {
-        font-size: 14px;
-      }
-    }  
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    filter: blur(0px);
+  }
   
+  .video-section video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+  }
