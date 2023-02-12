@@ -1,34 +1,14 @@
 body {
-    background-color: #212121;
     color: white;
-}
-
-.title {
-   
-    text-align: center;
-    
-}
-
-.about-me {
-    padding-top: 50px;
-    margin: 0 auto;
-    
-}
-
-.primer-parrafo{
-    padding-bottom: 100px;
-}
-
-.segundo-parrafo{
-    padding-bottom: 100px;
-}
-
-.video-section {
+    margin: 0;
+    padding: 0;
+  }
+  .video-section {
     position: relative;
     height: 100vh;
     width: 100%;
     overflow: hidden;
-    filter: blur(5px);
+    filter: blur(0px);
   }
   
   .video-section video {
@@ -39,45 +19,44 @@ body {
     min-width: 100%;
     min-height: 100%;
   }
-  
-.video-section-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
     text-align: center;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-@media (max-width: 991px) {
-
+  }
+  
+  .about-me {
+    padding-top: 50px;
+    margin-top: 50px;
+  }
+  
+  .title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  .title-s2,
+  .title-s3 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  
+  .parrafos {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 992px) {
     .title {
-        padding-top: 1100px;
+      font-size: 36px;
     }
-
-    .primer-parrafo {
-        padding-top: 0px;
+    .title-s2,
+    .title-s3 {
+      font-size: 24px;
     }
-
-    .segundo-parrafo {
-        padding-bottom: 100px;
-    }
-    
-    .tercer-parrafo {
-        padding-bottom: 100px;
-    }
-
-    .video-section{
-        position: relative;
-        height: 232vh;
-        width: 100%;
-        overflow: hidden;
-        filter: blur(5px);
-
-    }
-}
-
+  }
+  
